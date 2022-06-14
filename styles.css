@@ -22,9 +22,9 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 400px;
+    max-width: 100%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 35px;
+    padding: 29px;
     padding-bottom: 20px;
 }
 
@@ -126,12 +126,10 @@ p a:hover {
     margin: 1px;
     text-align: center;
     border-radius: 6px;
-    max-width: 400px;
 }
 
 .freetrial-box {
     background-color: hsl(249, 47%, 40%);
-    max-width: 400px;
     padding: 12px;
     color: white;
     margin: 11px 0px;
@@ -141,10 +139,16 @@ p a:hover {
 
 
 
-@media only screen and (max-width: 1000px) {
-.section1 {
+@media only screen and (max-width: 980px) {
+   form {
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        padding-bottom: 20px;
+    }
+
+    .section1 {
     text-align: center;
-    padding: 6%;
+    padding: 8%;
 }
 
 .section2 {
