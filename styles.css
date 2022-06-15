@@ -69,7 +69,7 @@ button {
 
 button:hover {
     opacity: 0.8;
-    border: 2px solid white;
+    border: 2px thin white;
 }
 
 p a {
